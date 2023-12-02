@@ -6,7 +6,7 @@
   <link href="http://lionheart117.github.io/atom.xml" rel="self"/>
   
   <link href="http://lionheart117.github.io/"/>
-  <updated>2023-12-01T23:57:29.046Z</updated>
+  <updated>2023-12-02T01:00:36.006Z</updated>
   <id>http://lionheart117.github.io/</id>
   
   <author>
@@ -21,8 +21,15 @@
     <link href="http://lionheart117.github.io/2023/11/26/matrix-multiplication/"/>
     <id>http://lionheart117.github.io/2023/11/26/matrix-multiplication/</id>
     <published>2023-11-26T15:50:14.000Z</published>
-    <updated>2023-12-01T23:57:29.046Z</updated>
+    <updated>2023-12-02T01:00:36.006Z</updated>
     
+    <content type="html"><![CDATA[<h1 id="0x0-基础知识"><a href="#0x0-基础知识" class="headerlink" title="0x0 基础知识"></a>0x0 基础知识</h1><h2 id="点积（DP-Dot-Product）"><a href="#点积（DP-Dot-Product）" class="headerlink" title="点积（DP, Dot Product）"></a>点积（DP, Dot Product）</h2><p>点积，或者称为内积，表示的是两个向量做乘法后再累加，具体如下所示：</p><script type="math/tex; mode=display">c = \vec{a}\cdot\vec{b} = \begin{bmatrix} a_0&a_1&a_2 \end{bmatrix}\begin{bmatrix} b_0\\b_1\\b_2 \end{bmatrix}=\sum_{i=0}^{3}a_ib_i</script><h1 id=""><a href="#" class="headerlink" title="#"></a>#</h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;0x0-基础知识&quot;&gt;&lt;a href=&quot;#0x0-基础知识&quot; class=&quot;headerlink&quot; title=&quot;0x0 基础知识&quot;&gt;&lt;/a&gt;0x0 基础知识&lt;/h1&gt;&lt;h2 id=&quot;点积（DP-Dot-Product）&quot;&gt;&lt;a href=&quot;#点积（DP-Dot-P</summary>
+      
     
     
     
