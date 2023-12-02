@@ -6,7 +6,7 @@
   <link href="http://lionheart117.github.io/atom.xml" rel="self"/>
   
   <link href="http://lionheart117.github.io/"/>
-  <updated>2023-12-02T15:45:19.596Z</updated>
+  <updated>2023-12-02T15:51:04.056Z</updated>
   <id>http://lionheart117.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://lionheart117.github.io/2023/11/26/matrix-multiplication/"/>
     <id>http://lionheart117.github.io/2023/11/26/matrix-multiplication/</id>
     <published>2023-11-26T15:50:14.000Z</published>
-    <updated>2023-12-02T15:45:19.596Z</updated>
+    <updated>2023-12-02T15:51:04.056Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="0x0-基础知识"><a href="#0x0-基础知识" class="headerlink" title="0x0 基础知识"></a>0x0 基础知识</h1><p>一个基础的矩阵乘法，可以表示为:</p><script type="math/tex; mode=display">\begin{bmatrix} a_0&a_1&a_2\\a_3&a_4&a_5\\a_6&a_7&a_8 \end{bmatrix}\begin{bmatrix} b_0&b_3&b_6\\b_1&b_4&b_7\\b_2&b_5&b_8 \end{bmatrix}=\begin{bmatrix} c_0&c_1&c_2\\c_3&c_4&c_5\\c_6&c_7&c_8 \end{bmatrix}</script><h2 id="点积（DP-Dot-Product）"><a href="#点积（DP-Dot-Product）" class="headerlink" title="点积（DP, Dot Product）"></a>点积（DP, Dot Product）</h2><p>点积，或者称为内积，表示的是两个向量做乘法后再累加，具体如下所示：</p><script type="math/tex; mode=display">\begin{bmatrix} \underline{a_0}&\underline{a_1}&\underline{a_2}\\a_3&a_4&a_5\\a_6&a_7&a_8 \end{bmatrix}\begin{bmatrix} \underline{b_0}&b_3&b_6\\\underline{b_1}&b_4&b_7\\\underline{b_2}&b_5&b_8 \end{bmatrix}=\begin{bmatrix} \underline{c_0}&c_1&c_2\\c_3&c_4&c_5\\c_6&c_7&c_8 \end{bmatrix}</script><script type="math/tex; mode=display">c_0 = \vec{a_0}\cdot\vec{b_0} = \begin{bmatrix} a_0&a_1&a_2 \end{bmatrix}\begin{bmatrix} b_0\\b_1\\b_2 \end{bmatrix}=\sum_{i=0}^{3}a_ib_i</script><p>点积的基本乘加器结构如下所示，以上式$c_0$为例：</p><p><img src="../images/matrix-multiplication_image.png" alt="点积的基本乘加器结构"></p><h2 id="外积"><a href="#外积" class="headerlink" title="外积 ()"></a>外积 ()</h2>]]></content>
+    <content type="html"><![CDATA[<h1 id="0x0-基础知识"><a href="#0x0-基础知识" class="headerlink" title="0x0 基础知识"></a>0x0 基础知识</h1><p>一个基础的矩阵乘法，可以表示为:</p><script type="math/tex; mode=display">\begin{bmatrix} a_0&a_1&a_2\\a_3&a_4&a_5\\a_6&a_7&a_8 \end{bmatrix}\begin{bmatrix} b_0&b_3&b_6\\b_1&b_4&b_7\\b_2&b_5&b_8 \end{bmatrix}=\begin{bmatrix} c_0&c_1&c_2\\c_3&c_4&c_5\\c_6&c_7&c_8 \end{bmatrix}</script><h2 id="点积（DP-Dot-Product）"><a href="#点积（DP-Dot-Product）" class="headerlink" title="点积（DP, Dot Product）"></a>点积（DP, Dot Product）</h2><p>点积，或者称为内积，表示的是两个向量做乘法后再累加，具体如下所示：</p><script type="math/tex; mode=display">\begin{bmatrix} \underline{a_0}&\underline{a_1}&\underline{a_2}\\a_3&a_4&a_5\\a_6&a_7&a_8 \end{bmatrix}\begin{bmatrix} \underline{b_0}&b_3&b_6\\\underline{b_1}&b_4&b_7\\\underline{b_2}&b_5&b_8 \end{bmatrix}=\begin{bmatrix} \underline{c_0}&c_1&c_2\\c_3&c_4&c_5\\c_6&c_7&c_8 \end{bmatrix}</script><script type="math/tex; mode=display">c_0 = \vec{a_0}\cdot\vec{b_0} = \begin{bmatrix} a_0&a_1&a_2 \end{bmatrix}\begin{bmatrix} b_0\\b_1\\b_2 \end{bmatrix}=\sum_{i=0}^{3}a_ib_i</script><p>点积的基本乘加器结构如下所示，以上式$c_0$为例：</p><p><img src="../images/matrix-multiplication_image.png" alt="title"></p><h2 id="外积"><a href="#外积" class="headerlink" title="外积 ()"></a>外积 ()</h2>]]></content>
     
     
       
